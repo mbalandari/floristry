@@ -61,3 +61,12 @@ nav a {
     max-width: 380px;
     margin: 0 auto;
 }
+
+.flowers {
+    overflow: hidden;
+}
+
+.flowers img {
+    float: left;
+    width: 33.333%;
+}
