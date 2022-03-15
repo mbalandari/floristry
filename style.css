@@ -70,3 +70,38 @@ nav a {
     float: left;
     width: 33.333%;
 }
+
+.quotes {
+    overflow: hidden;
+    display: flex;
+    width: 100vw;
+}
+
+.quotes div {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 50px 20px 40px 20px;
+}
+
+.quotes img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.quotes blockquote {
+    font-family: 'David Libre', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    max-width: 500px;
+    margin: 15px auto 5px auto;
+}
+
+.sara {
+    background-color: #F1FFFF;
+}
+
+.tom {
+    background-color: #FFF1F1;
+}
