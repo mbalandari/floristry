@@ -232,6 +232,10 @@ footer p {
         display: block;
     }
 
+    .logos img:last-child {
+        margin-bottom: 0;
+    }
+
     footer {
         padding: 10px 20px;
     }
