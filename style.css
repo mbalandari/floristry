@@ -152,6 +152,10 @@ footer p {
 }
 
 @media (max-width: 700px) {
+    body {
+        font-size: 14px;
+    }
+
     .hero-text h2 {
         font-size: 48px;
         margin-bottom: 5px;
@@ -169,6 +173,15 @@ footer p {
     .quotes div {
         float: none;
         width: auto;
+        padding: 30px 30px 40px 30px;
+    }
+
+    .quotes blockquote {
+        font-size: 20px;
+    }
+    
+    .quotes p {
+        display: none;
     }
 
     .table {
