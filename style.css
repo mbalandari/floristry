@@ -113,7 +113,6 @@ nav a {
     background-position: center bottom;
     padding: 0;
     height: 600px;
-    overflow: hidden;
 }
 
 .logos {
@@ -130,8 +129,8 @@ nav a {
 }
 
 .logos img {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 footer {
@@ -150,4 +149,29 @@ footer p {
     font-size: 14px;
     font-weight: 700;
     margin-top: 14.5px;
+}
+
+@media (max-width: 700px) {
+    .hero-text h2 {
+        font-size: 48px;
+        margin-bottom: 5px;
+    }
+
+    .hero {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .quotes {
+        display: block;
+    }
+
+    .quotes div {
+        float: none;
+        width: auto;
+    }
+
+    .table {
+        height: 400px;
+    }
 }
